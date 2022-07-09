@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEBSITE DEPOK</title>
+  <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="shortcut icon" href="admin/assets/dist/img/pngwing.com (1).png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <style media="screen">
+  .legend-manual{
+    width:450px;
+    background: #223B80;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    padding: 0.5em 1em;
+  }
+  .fieldset-manual{
+    border:2px solid black;
+    padding: 1em 2em;
+  }
+  </style>
+</head>
+<body>
+  <div class="jumbotron mb-0 text-center">
+    <h1>WEBSITE DEPOK</h1>
+    <p>Wisata Kota Depok</p>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="rekreasi.html">Rekreasi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kuliner.html">Kuliner</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Register</a>
+        </li>
+      </ul>
+      <form class="form-inline my-1 my-md-0">
+        <a href="admin/index.html" class="btn btn-primary">Sign in</a>
+      </form>
+    </div>
+  </nav>
+  <div class="col-sm-12">
+    <nav>
+      <ol class="breadcrumb warna float-sm-right">
+        <li class="breadcrumb-item">
+          <a href="#">Home</a>
+        </li>
+        <li class="breadcrumb-item active">
+          Request
+        </li>
+      </ol>
+    </nav>
+  </div>
+
+  <div class="row col-md-12 ml-1 mr-2">
+    <h2>Registrasi Wisata Kuliner & Rekreasi Kota Depok</h2>
+  </div>
+
+  <div class="row">
+    <div class="card col-md-12 ml-1 mr-2">
+      <div class="card-body" >
+        <form class="" action="index.html" method="post" >
+          <fieldset class="fieldset-manual">
+            <legend class="legend-manual">Form Registrasi Wisata Kota Depok</legend>
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Nama Tempat Wisata</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" name="wisata_kuliner" placeholder="Nama Tempat Wisata Rekreasi">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Jenis Wisata</label>
+              <div class="col-sm-9">
+                <select class="form-control" >
+                  <option selected="selected">Wisata Kuliner</option>
+                  <option>Wisata Rekreasi</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Deskripsi Wisata</label>
+              <div class="col-sm-9">
+                <textarea class="form-control" placeholder="">
+                </textarea>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Kontak Person</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control"  placeholder="Kontak Person">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">No HP/Telepon</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control"  placeholder="No hp/Telepon">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Email</label>
+              <div class="col-sm-9">
+                <input type="email" class="form-control"  placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Alamat Web</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control"  placeholder="http://">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Deskripsi Wisata</label>
+              <div class="col-sm-9">
+                <textarea class="form-control" name="alamat" >
+                </textarea>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Longitude</label>
+              <div class="col-sm-3">
+                <input type="text" class="form-control"  placeholder="Longitude">
+              </div>
+              <label class="col-sm-2 col-form-label">Latitude</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control"  placeholder="Latitude">
+              </div>
+            </div>
+            <div class="float-right" style="background-color:white;">
+              <button type="submit" class="btn btn-success">Daftar</button>
+              <a href="list.html" class="btn btn-danger">Batal</a>
+            </div>
+
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="row col-md-11 ml-5 mt-4">
+    <footer>
+      <strong>Copyright &copy; 2022 <a href="#">PemWebKel4</a>.</strong>
+      Prototype.
+      <div class="float-right d-none d-sm-inline-block">
+      </div>
+    </footer>
+  </div>
+  <script>
+  $(function () {
+    // Summernote
+    $('.textarea').summernote()
+  })
+  </script>
+
+</body>
+</html>

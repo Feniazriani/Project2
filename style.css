@@ -1,0 +1,25 @@
+.jumbotron {
+    background: #203580;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background: white;
+    text-align: center;
+}
+
+.no-underline {
+    text-decoration: none !important;
+}
+.warna{
+  background-color: white;
+}
+.star-size{
+  font-size: 5px;
+}
+
+.jarak{
+  margin-top:-50px !important;
+}
